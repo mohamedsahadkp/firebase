@@ -1,0 +1,17 @@
+#storage {
+    display: flex; 
+    min-height: 100vh;
+    width: 100M; 
+    padding: 0; 
+    margin: 0;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+#uploader {
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 50%;
+    margin-bottom: 10px;
+}
+    
