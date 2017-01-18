@@ -3,21 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>Wellcome to firebase</title>
-        <link rel="stylesheet" href="./app.css">
         <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
     </head>
     <body>
-        <div>
-            <h3>Real-time Database App Example</h3>
-            <pre id="object"> </pre>
-        </div>
+        <h3>Firebase</h3>
+        <h3>Object Storage App Example</h3>
+     
         <div id="storage">
-            <h3>Object Storage App Example</h3>
+            <progress id="uploader" alue="0" max="100">0%</progress>
+            <input type="file" id="fileButton" />
+        </div>
+
+        <div id="viewImage">
             <progress id="uploader" alue="0" max="100">0%</progress>
             <input type="file" id="fileButton" />
         </div>
         
-
-        <script src="./app.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
