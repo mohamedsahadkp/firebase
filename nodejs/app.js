@@ -27,7 +27,6 @@ msgRef.update({
 });
 
 
-
 // rootObject.on('value', function(data) {
 //     console.log("Data from firebase:"+ data.val());
 // });
